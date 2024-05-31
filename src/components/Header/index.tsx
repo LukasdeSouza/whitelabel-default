@@ -1,14 +1,25 @@
 import React from 'react'
 import { menuRoutes } from '../../routes/menuRoutes'
+import Link from 'next/link'
 
 const Header = () => {
   return (
-    <nav className='flex flex-row bg-black'>
-      <ul>
+    <nav className='w-full flex flex-row items-center p-4 bg-defaultDark'>
+      <Link 
+        href={menuRoutes[0].path} 
+        className='text-primary font-semibold'
+        >
+          Logo
+        </Link>
+      <ul className='w-full flex justify-end gap-6'>
         {menuRoutes.map((item, key) => (
-            <li key={key}>
-              {item.icon}{item.path}
-            </li>
+            <Link 
+              key={key} 
+              href={item.path} 
+              className='text-sm text-primary cursor-pointer hover:text-lime-100'
+              >
+                {item.icon}{item.menuName}
+            </Link>
           )
         )}
       </ul>

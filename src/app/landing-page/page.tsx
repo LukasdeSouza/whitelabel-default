@@ -2,7 +2,9 @@ import React from 'react'
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <div className='w-full h-full bg-gradientDark'>
+      AOBA
+    </div>
   )
 }
 
