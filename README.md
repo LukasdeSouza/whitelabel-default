@@ -1,25 +1,13 @@
-# Next.js + Turbopack
+# Whitelabel Template Application
 
-This example allows you to get started with `next dev --turbo` quicky.
+Aplicação criada utilizando NextJs + Turbo pack. Esse exemplo permite você iniciar a aplicação com `next dev --turbo`.
+Whitelabel criado para oferecimento de serviços de diferentes modalidades:
+> com possibilidade de ver os prestadores de serviço, acesso ao perfil do usuário, cadastro de serviços, contratação de serviços, detalhamento de prestadores de serviço, pagamento do serviço, etc.
 
-## Deploy your own
+## Objetivo
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-turbopack&project-name=with-turbopack&repository-name=with-turbopack)
+Template pronto para aplicação do tipo CRUD, com possibilidade de alteração do service para consumo e dos textos principais da aplicação, desde a landing page a outros.
 
-## How to use
+![image](https://github.com/LukasdeSouza/whitelabel-default/assets/99886292/a9c90022-15fc-42cb-8b86-eae8737d9a28)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-turbopack with-turbopack-app
-```
-
-```bash
-yarn create next-app --example with-turbopack with-turbopack-app
-```
-
-```bash
-pnpm create next-app --example with-turbopack with-turbopack-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
